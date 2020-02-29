@@ -49,3 +49,15 @@
 1. 批量操作：[版本四](day04/index3-v4.html)
 1. 批量操作：[版本五](day04/index3-v5.html)
 1. 批量操作：[版本六](day04/index3-v6.html)
+
+## Day5 用好异步
+
+1. 打字游戏：[版本一](day05/index1.html)
+1. 幸运儿：[版本一](day05/index2.html)
+
+## Day6 谈谈组件封装
+
+1. 轮播图：[版本一](day06/index1.html)
+1. 轮播图：[版本二](day06/index2.html)
+1. 轮播图：[版本三](day06/index3.html)
+1. 轮播图：[版本四](day06/index4.html)

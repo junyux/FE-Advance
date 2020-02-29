@@ -1,0 +1,96 @@
+.slider {
+  position: relative;
+  width: 790px;
+  height: 340px;
+}
+
+.slider ul {
+  list-style-type:none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.slider__item,
+.slider__item--selected {
+  position: absolute;
+  transition: opacity 1s;
+  opacity: 0;
+  text-align: center;
+}
+
+.slider__item--selected {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.slider__next,
+.slider__previous{
+  display: inline-block;
+  position: absolute;
+  top: 50%; /*定位在录播图组件的纵向中间的位置*/
+  margin-top: -25px;
+  width: 30px;
+  height:50px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+  overflow: hidden;
+  border: none;
+  color: white;
+  background: rgba(0,0,0,0.2); /*设置为半透明*/
+  cursor: pointer; /*设置鼠标移动到这个元素时显示为手指状*/
+  opacity: 0; /*初始状态为透明*/
+  transition: opacity .5s; /*设置透明度变化的动画，时间为.5秒*/
+}
+
+.slider__previous {
+  left: 0; /*定位在slider元素的最左边*/
+}
+
+.slider__next {
+  right: 0; /*定位在slider元素的最右边*/
+}
+
+.slider:hover .slider__previous {
+  opacity: 1;
+}
+
+.slider:hover .slider__next {
+  opacity: 1;
+}
+
+.slider__previous:after {
+  content: '<';
+}
+
+.slider__next:after {
+  content: '>';
+}
+
+.slider__control{
+  position: relative;
+  display: table; /* table 布局*/
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border-radius: 12px;
+  bottom: 30px;
+  margin: auto;
+}
+
+.slider__control-buttons,
+.slider__control-buttons--selected{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;/*设置为圆形*/
+  margin: 0 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.slider__control-buttons--selected {
+  background-color: red;
+}

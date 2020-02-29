@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky boy</title>
+</head>
+<body>
+  <h1></h1>
+  <script type="module">
+    import {Signal} from './assets/signal.js';
+
+    const lucky = new Signal();
+
+    const timerID = setInterval(() => {
+      const num = Math.ceil(Math.random() * 10);
+      console.log(num);
+      lucky.state = num;
+    }, 1000);
+    
+    const result = document.querySelector('h1');
+
+    async function addLuckyBoy(name, num) {
+      await lucky.until(num);
+      result.innerHTML = `${name} is lucky boy!`;
+      clearInterval(timerID);
+      lucky.deleteAll(); // 删除checkers中的所有promise对象
+    }
+
+    addLuckyBoy('张三', 3);
+    addLuckyBoy('李四', 5);
+    addLuckyBoy('王五', 7);
+  </script>
+</body>
+</html>

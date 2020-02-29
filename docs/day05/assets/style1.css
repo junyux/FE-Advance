@@ -1,0 +1,61 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  margin: 0;
+  overflow: hidden;
+}
+
+#main {
+  position: relative;
+  display: inline-block;
+}
+
+#panel, #typed {
+  border: solid 1px #000;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  margin: 0;
+  padding: 18px 6px 6px 6px;
+  color: #0006;
+}
+
+#panel {
+  width: 600px;
+  min-height: 400px;
+}
+#panel:empty {
+  cursor: pointer;
+}
+#panel:empty::after {
+  content: '鼠标点击后开始';
+}
+
+#typed {
+  max-width: 600px;
+  position: absolute;
+  top: 0;
+  border-color: transparent;
+  color: #008;
+  background-color: #eea6;
+  background-clip: content-box;
+  overflow: hidden;
+}
+#typed:empty {
+  background-color: transparent;
+}
+
+#starting {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+#countdown {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  opacity: 0.3;
+}
