@@ -1,0 +1,20 @@
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#avatar {
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  border: solid 1px;
+  margin-left: 10px;
+  line-height: 100px;
+  text-align: center;
+}
+
+form {
+  float: left;
+}

@@ -84,3 +84,8 @@
 1. 图文渐显：[版本五](day08/index3-v1.html)
 1. 图文渐显：[版本六](day08/index3-v1.html)
 1. 描边动画：[版本一](day08/index4.html)
+
+### Day9 高级特性与元编程
+
+1. 用户画像：[版本一](day09/index1.html)
+1. 用户画像：[版本二](day09/index2.html)
