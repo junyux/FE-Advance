@@ -1,0 +1,44 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 10px;
+  transition: all 1s;
+}
+
+div.pic img {
+  width: 100%;
+}
+
+#modeCheckBox {
+  display: none;
+}
+
+#modeCheckBox:checked + .content {
+  background-color: black;
+  color: white;
+  transition: all 1s;
+}
+
+#modeBtn {
+  font-size: 2rem;
+  float: right;
+}
+
+#modeBtn::after {
+  content: '🌞';
+}
+
+#modeCheckBox:checked + .content #modeBtn::after {
+  content: '🌜';
+}
