@@ -13,7 +13,7 @@ body {
 
 .content {
   padding: 10px;
-  transition: all 1s;
+  transition: background-color 1s, color 1s;
 }
 
 div.pic img {

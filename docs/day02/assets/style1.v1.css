@@ -1,0 +1,21 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: url("https://p5.ssl.qhimg.com/t018438001db494c5f3.png");
+}
+
+li.expand {
+  list-style: url("https://p4.ssl.qhimg.com/t0167b045701562f010.png")
+}
+.tree li > ul {
+  display: none;
+}
+
+.tree li.expand > ul {
+  display: block;
+}

@@ -7,3 +7,7 @@
 1. 深夜食堂：[版本一](day01/index-v1.html)
 1. 深夜食堂：[版本二](day01/index-v2.html)
 1. 深夜食堂：[版本三](day01/index-v3.html)
+
+## Day2 让CSS做更多的事情
+
+1. 树形结构与三角标：[版本一](day02/index1-v1.html)

@@ -1,0 +1,35 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.tree li::before {
+  color: #999;
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 10.4px;
+  border-color: transparent;
+  border-left-color: currentColor;
+  transform: translateX(6px);
+}
+
+.tree li.expand::before {
+  transform: rotate(90deg) translateX(6px) ;
+}
+
+.tree li > ul {
+  display: none;
+}
+
+.tree li.expand > ul {
+  display: block;
+}
