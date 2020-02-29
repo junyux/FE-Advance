@@ -1,0 +1,39 @@
+.pie,
+.pie::before {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.pie {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 150px;
+  text-align: center;
+  background: linear-gradient(.25turn, #3c7 50%,transparent 50%);
+  animation: convex 10s step-end infinite;
+  animation-play-state: paused;
+  animation-delay: -0s;
+}
+
+.pie::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  background: linear-gradient(90deg, #37c 50%,#3c7 50%);
+  z-index: -1;
+  transform: rotate(0turn);
+  animation: spin 10s linear infinite;
+ animation-play-state: paused;
+  animation-delay: inherit;
+}
+
+@keyframes spin{
+  to {transform: rotate(1turn)}
+}
+@keyframes convex{
+  50% {background: linear-gradient(90deg, transparent 50%, #37c 50% 0);}
+}

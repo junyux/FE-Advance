@@ -1,0 +1,24 @@
+.pie,
+.pie::before {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.pie {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 150px;
+  text-align: center;
+}
+
+.pie::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  background: linear-gradient(90deg, #37c 50%,#3c7 50%);
+  z-index: -1;
+}

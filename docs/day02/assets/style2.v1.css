@@ -1,0 +1,40 @@
+.pie,
+.pie::before {
+  display: inline-block;
+  width: 0;
+  border-radius: 50%;
+}
+
+.pie {
+  position: relative;
+  border: solid 75px;
+  border-color: #3c7 #3c7 #37c #37c;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+}
+
+.pie::before {
+  content: '';
+  position: absolute;
+  border: solid 75px;
+  border-color: #37c #37c transparent transparent;
+  transform: translate(-50%, -50%);
+}
+.pie.convex::before {
+  border-color: transparent transparent #3c7 #3c7;
+}
+.pie.one::before {
+  transform: translate(-50%, -50%) rotate(.1turn);
+}
+
+.pie.two::before {
+  transform: translate(-50%, -50%) rotate(.25turn);
+}
+
+.pie.three::before {
+  transform: translate(-50%, -50%) rotate(.5turn);
+}
+
+.pie.four::before {
+  transform: translate(-50%, -50%) rotate(.8turn);
+}

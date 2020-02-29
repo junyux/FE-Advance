@@ -14,3 +14,8 @@
 1. 树形结构与三角标：[版本二](day02/index1-v2.html)
 1. 树形结构与三角标：[带交互](day02/index1-v3.html)
 1. 其他CSS图案：[例子](day02/index1-ex.html)
+1. 饼图：[版本一](day02/index2-v1.html)
+1. 饼图：[版本二](day02/index2-v2.html)
+1. 饼图：[版本三](day02/index2-v3.html)
+1. 饼图：[版本四](day02/index2-v4.html)
+1. 饼图：[版本五](day02/index2-v5.html)

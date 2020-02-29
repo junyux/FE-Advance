@@ -1,0 +1,36 @@
+@import url(style2.v1.css);
+
+.pie::before {
+  content: '';
+  position: absolute;
+  border: solid 75px;
+  border-color: #37c #37c transparent transparent;
+  transform: translate(-50%, -50%) rotate(.0turn);
+  animation: spine 10s linear infinite,
+    convex 10s step-end infinite;
+  animation-play-state: paused;
+  animation-delay: inherit;
+}
+
+.pie,
+.pie::before {
+  display: inline-block;
+  width: 0;
+  border-radius: 50%;
+  font-size: 0; /* 纯粹防止空白符，这个例子中可以不添加这个设置*/
+}
+
+.pie span {
+  font-size: 1rem;
+  position: absolute;
+  color: #fff;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@keyframes spine {
+  to {transform: translate(-50%, -50%) rotate(1turn);}
+}
+
+@keyframes convex {
+  50% {border-color: transparent transparent #3c7 #3c7;}
+}
