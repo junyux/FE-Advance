@@ -11,3 +11,6 @@
 ## Day2 让CSS做更多的事情
 
 1. 树形结构与三角标：[版本一](day02/index1-v1.html)
+1. 树形结构与三角标：[版本二](day02/index1-v2.html)
+1. 树形结构与三角标：[带交互](day02/index1-v3.html)
+1. 其他CSS图案：[例子](day02/index1-ex.html)

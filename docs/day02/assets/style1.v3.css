@@ -1,0 +1,9 @@
+@import url(style1.v2.css);
+
+.tree li > ul {
+  display: none;
+}
+
+.tree li.expand > ul {
+  display: block;
+}
