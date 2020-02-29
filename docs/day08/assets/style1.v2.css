@@ -1,0 +1,27 @@
+.main {
+  width: 512px;
+  height: 512px;
+  position: relative;
+}
+#sun, #earth {
+  position: absolute;
+}
+#sun {
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  left: 50%;
+  top: 50%;
+}
+#earth {
+  left: 50%;
+  top: calc(50% - 128px);
+  transform-origin: 50% calc(50% + 128px);
+  font-size: 2rem;
+
+  transform: translate(-50%, -50%) rotate(.0turn);
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  to {transform: translate(-50%, -50%) rotate(1turn)}
+}

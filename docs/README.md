@@ -69,3 +69,18 @@
 1. 图片预览+选择：[版本一](day07/index3.html)
 1. 同步滚动：[版本一](day07/index4-v1.html)
 1. 同步滚动：[版本二](day07/index4-v2.html)
+
+### Day8 玩转动画
+
+1. 旋转动画：[版本一](day08/index1-v1.html)
+1. 旋转动画：[版本二](day08/index1-v2.html)
+1. 弹跳小球：[版本一](day08/index2-v1.html)
+1. 小球动画一：[版本一](day08/index2-ex.html)
+1. 小球动画二：[版本一](day08/index2-ex2.html)
+1. 图文渐显：[版本一](day08/index3-v1.html)
+1. 图文渐显：[版本二](day08/index3-v1.html)
+1. 图文渐显：[版本三](day08/index3-v1.html)
+1. 图文渐显：[版本四](day08/index3-v1.html)
+1. 图文渐显：[版本五](day08/index3-v1.html)
+1. 图文渐显：[版本六](day08/index3-v1.html)
+1. 描边动画：[版本一](day08/index4.html)

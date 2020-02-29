@@ -1,0 +1,22 @@
+#content {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  border: solid 1px;
+  font-size: 1.5rem;
+}
+
+#content::after {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  content: ' ';
+  background: white;
+  animation: slide 2s ease-in forwards;
+}
+
+@keyframes slide {
+  to {width: 0};
+}

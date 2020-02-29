@@ -1,0 +1,8 @@
+#logo {
+  display: inline-block;
+  width: 150px;
+  height: 164px;
+  background-image: url(https://p1.ssl.qhimg.com/t01d64366d00102132a.png);
+  background-size: 100%;
+  -webkit-mask: linear-gradient(to right, #000 0%, transparent 0) 0/20px;
+}

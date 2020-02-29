@@ -1,0 +1,12 @@
+#content {
+  display: inline-block;
+  padding: 5px;
+  border: solid 1px;
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fade-in 5s infinite;
+}
+
+@keyframes fade-in {
+  to {opacity: 1};
+}

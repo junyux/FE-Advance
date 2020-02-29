@@ -1,0 +1,13 @@
+svg polygon {
+  stroke: red;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke-width: 5;
+  animation: stroke-path 5s linear infinite;
+}
+
+@keyframes stroke-path {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

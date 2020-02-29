@@ -1,0 +1,17 @@
+.main {
+  width: 512px;
+  height: 512px;
+  position: relative;
+}
+#sun, #earth {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+#sun {
+  font-size: 5rem;
+  left: 50%;
+  top: 50%;
+}
+#earth {
+  font-size: 2rem;
+}
