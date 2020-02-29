@@ -1,0 +1,22 @@
+#list {
+  list-style-type: none;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#list li {
+  padding: 10px;
+  margin: 0;
+}
+#list img {
+  height: 200px;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+#list img.selected {
+  border: solid 5px #37c;
+  padding: 0;
+}

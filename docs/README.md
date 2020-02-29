@@ -61,3 +61,11 @@
 1. 轮播图：[版本二](day06/index2.html)
 1. 轮播图：[版本三](day06/index3.html)
 1. 轮播图：[版本四](day06/index4.html)
+
+## Day7 常用设计模式
+
+1. 图片预览：[版本一](day07/index1.html)
+1. 图片选择：[版本一](day07/index2.html)
+1. 图片预览+选择：[版本一](day07/index3.html)
+1. 同步滚动：[版本一](day07/index4-v1.html)
+1. 同步滚动：[版本二](day07/index4-v2.html)

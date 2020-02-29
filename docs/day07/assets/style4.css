@@ -1,0 +1,20 @@
+body{
+  display: flex;
+}
+
+#editor {
+  width: 45%;
+  height: 350px;
+  margin-right: 10px;
+}
+
+#preview {
+  width: 45%;
+  height: 350px;
+  overflow: scroll;
+}
+
+#hintbar {
+  position: absolute;
+  right: 10px;
+}
