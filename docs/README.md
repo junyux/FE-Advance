@@ -10,10 +10,10 @@
 
 ## Day2 让CSS做更多的事情
 
-1. 树形结构与三角标：[版本一](day02/index1-v1.html)
-1. 树形结构与三角标：[版本二](day02/index1-v2.html)
-1. 树形结构与三角标：[带交互](day02/index1-v3.html)
-1. 其他CSS图案：[例子](day02/index1-ex.html)
+1. 树形菜单：[版本一](day02/index1-v1.html)
+1. 树形菜单：[版本二](day02/index1-v2.html)
+1. 树形菜单带交互：[版本一](day02/index1-v3.html)
+1. 其他CSS图案：[版本一](day02/index1-ex.html)
 1. 饼图：[版本一](day02/index2-v1.html)
 1. 饼图：[版本二](day02/index2-v2.html)
 1. 饼图：[版本三](day02/index2-v3.html)
@@ -34,3 +34,18 @@
 
 ## Day4 过程抽象提升系统的可维护性
 
+1. 只执行一次：[版本一](day04/index1-v1.html)
+1. 只执行一次：[版本二](day04/index1-v2.html)
+1. 只执行一次：[版本三](day04/index1-v3.html)
+1. 只执行一次：[版本四](day04/index1-v4.html)
+1. 节流：[版本一](day04/index2-v1.html)
+1. 节流：[版本二](day04/index2-v2.html)
+1. 防抖：[版本一](day04/index3-v1.html)
+1. 防抖：[版本二](day04/index3-v2.html)
+1. 拦截器：[版本一](day04/index3-v1.html)
+1. 批量操作：[版本一](day04/index3-v1.html)
+1. 批量操作：[版本二](day04/index3-v2.html)
+1. 批量操作：[版本三](day04/index3-v3.html)
+1. 批量操作：[版本四](day04/index3-v4.html)
+1. 批量操作：[版本五](day04/index3-v5.html)
+1. 批量操作：[版本六](day04/index3-v6.html)
