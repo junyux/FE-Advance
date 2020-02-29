@@ -1,0 +1,18 @@
+@import url('style.v1.css');
+
+body {
+  transition: all 1s;
+}
+
+body.night {
+  background-color: black;
+  color: white;
+  transition: all 1s;
+}
+
+#modeBtn::after {
+  content: '🌞';
+}
+body.night #modeBtn::after {
+  content: '🌜';
+}
