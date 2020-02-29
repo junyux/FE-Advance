@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+  /*设置html和body元素的布局为弹性布局*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  line-height: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.traffic { /*将class=traffic元素设置为弹性布局，它的子元素按照从上面到下排列*/
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.traffic .light {
+  width: 100px;
+  height: 100px;
+  background-color: #999;
+  border-radius: 50%;
+}
+
+/*将class=traffic & class=pass元素下的第一个class=light的元素的背景色设置为绿色*/
+.traffic.pass .light:nth-child(1) {
+  background-color: #0a6; /*绿灯*/
+}
+.traffic.wait .light:nth-child(2) {
+  background-color: #cc0; /*黄灯*/
+}
+.traffic.stop .light:nth-child(3) {
+  background-color: #c00; /*红灯*/
+}

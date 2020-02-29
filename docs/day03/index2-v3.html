@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>幸运数字</title>
+  <link rel="stylesheet" href="assets/style2.css">
+</head>
+<body>
+  <div class="lucky">今日幸运数字：<span id="lucky-number">6</span></div>
+  <div class="panel"></div>
+  <script type="module">
+    import {shuffle} from './assets/app2.v3.js';
+    const panel = document.querySelector('.panel');
+    const luckyNumber = Number(document.getElementById('lucky-number').innerHTML);
+    for(let i = 0; i < 9; i++) {
+      const el = document.createElement('div');
+      el.className = 'card';
+      el.innerHTML = '?';
+      panel.appendChild(el);
+    }
+    let limit = 3;
+    const cards = [];
+    for(const card of shuffle([1, 2, 3, 4, 5, 6, 7, 8, 9])) {
+      cards.push(card);
+      if(--limit === 0) break;
+    }
+    panel.addEventListener('click', ({target}) => {
+      if(cards.length > 0 && target.className === 'card') {
+        const idx = cards.pop();
+        target.innerHTML = idx;
+        if(luckyNumber === idx) target.className = 'card bingo';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -13,6 +13,8 @@ module.exports = {
   rules: {
     complexity: ['warn', 25],
     'import/prefer-default-export': 'off',
-    'no-unused-vars': 'warn'
+    'no-unused-vars': 'warn',
+    'no-await-in-loop': 'off',
+    'no-restricted-syntax': 'off',
   }
 };

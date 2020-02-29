@@ -1,0 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lucky {
+  position: fixed;
+  margin-top: -180px;
+}
+.panel {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+.card {
+  font-size: 2.5rem;
+  line-height: 100px;
+  text-align: center;
+  color: #999;
+  border: solid 1px;
+  cursor: pointer;
+}
+.card.bingo {
+  color: #a00;
+}

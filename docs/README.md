@@ -19,3 +19,18 @@
 1. 饼图：[版本三](day02/index2-v3.html)
 1. 饼图：[版本四](day02/index2-v4.html)
 1. 饼图：[版本五](day02/index2-v5.html)
+
+## Day3 代码的封装性、可读性和正确性
+
+1. 交通灯：[版本一](day03/index1-v1.html)
+1. 交通灯：[版本二](day03/index1-v2.html)
+1. 交通灯：[版本三](day03/index1-v3.html)
+1. 交通灯：[版本四](day03/index1-v4.html)
+1. 交通灯：[版本五](day03/index1-v5.html)
+1. 交通灯：[版本六](day03/index1-v6.html)
+1. 幸运数字：[版本一](day03/index2-v1.html)
+1. 幸运数字：[版本二](day03/index2-v2.html)
+1. 幸运数字：[版本三](day03/index2-v3.html)
+
+## Day4 过程抽象提升系统的可维护性
+
