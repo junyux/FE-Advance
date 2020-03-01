@@ -70,7 +70,7 @@
 1. 同步滚动：[版本一](day07/index4-v1.html)
 1. 同步滚动：[版本二](day07/index4-v2.html)
 
-### Day8 玩转动画
+## Day8 玩转动画
 
 1. 旋转动画：[版本一](day08/index1-v1.html)
 1. 旋转动画：[版本二](day08/index1-v2.html)
@@ -85,7 +85,7 @@
 1. 图文渐显：[版本六](day08/index3-v1.html)
 1. 描边动画：[版本一](day08/index4.html)
 
-### Day9 高级特性与元编程
+## Day9 高级特性与元编程
 
 1. 用户画像：[版本一](day09/index1.html)
 1. 用户画像：[版本二](day09/index2.html)
