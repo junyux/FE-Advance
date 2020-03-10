@@ -4,7 +4,7 @@
 
 内容共10章，40节课，61个例子。
 
-在线访问：https://junyux.github.io/FE-Advance/
+在线访问：https://course3.junyux.com/
 
 ## 课程介绍
 
